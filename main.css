@@ -1,0 +1,74 @@
+/*this will contorl all the settings for the design elements of the javascript and the html and keep all the elements organized*/
+
+/*settings for the layout of the website*/
+html{
+    background-color: lightgray;
+    
+}
+/*settings for the title heading*/
+h1{
+    color: #2c75ff;
+    font-style: Helvetica, bold;
+    font-size: 50px;
+    text-align:center;
+}
+/*secondary heading settings*/
+h2{
+    color: goldenrod;
+    font-size:30px;
+    font-family: Helvetica, sans-serif;
+}
+/*setting for header 3 tag*/
+h3{
+    color: goldenrod;
+    font-size: 23px;
+    font-family: Helvetica, sans-serif;
+}
+/*settings for the introduction sentence*/
+.intro{
+    color: black;
+    font-family: verdana;
+    font-size: 1.3em;
+    margin: auto;
+    max-width: 1100px;
+    line-height: 2;
+     
+}
+/*settings for the main body text*/
+.text{
+    color: black;
+    font-style: verdana;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    margin-right:auto;
+    max-width:900px;
+}
+/*settings for the main text editor icon*/
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+/*settings for the Visual studio icon*/
+.visual{
+   display: block; 
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+}
+/*settings for the brackets icon*/
+.bicon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
+/*settings for the sublime text editor icon*/
+.sublime{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
