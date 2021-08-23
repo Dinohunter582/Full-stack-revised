@@ -184,12 +184,14 @@
     </p>
 </div>
 
-<!--this is the button that when pressed will trigger the function for the 2nd question from the javascript and allow you to answer and recieve a response-->
-<p>Press the button to answer the last question.</p>
-<button onclick="nextQuestion()">Press me</button>
+<?php
+//this is the button that when pressed will trigger the function for the 2nd question from the javascript and allow you to answer and recieve a response-->
+"<p>Press the button to answer the last question.</p>;
+<button onclick='nextQuestion()'>Press me</button>";
 
 
-</script>
+//</script>
+?>
 <!--our sources list-->
 <h2>Sources and where to download</h2>
 <div class="text">
