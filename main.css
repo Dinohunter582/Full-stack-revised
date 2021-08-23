@@ -24,6 +24,26 @@ h3{
     font-size: 23px;
     font-family: Helvetica, sans-serif;
 }
+
+span{
+    color: black;
+    font-style: verdana;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+    margin-right:auto;
+    max-width:900px;
+}
+
+button{
+    color: goldenrod;
+    cursor: pointer;
+    margin: 20px 0px;
+    background-color: transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: 2px solid goldenrod;
+    border-radius: 500px;
+}
 /*settings for the introduction sentence*/
 .intro{
     color: black;
@@ -71,4 +91,12 @@ h3{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+
+/*id's */
+#box{
+    width: 15em;
+    height: 15em;
+    border: 2px inset gray;
+    margin: 1em;
 }

@@ -186,21 +186,29 @@
 
 <?php
 //this is the button that when pressed will trigger the function for the 2nd question from the javascript and allow you to answer and recieve a response-->
-"<p>Press the button to answer the last question.</p>;
-<button onclick='nextQuestion()'>Press me</button>";
+echo("<span>Press the button to answer the last question.</span><br>
+<button onclick='nextQuestion()'>Press me</button>");
 
-
-//</script>
 ?>
+
+
+
+<div id='box'></div>
+<!-- button that activates the color change for the box -->
+<button type='button' id='clickme'>Click Me</button>
+<!--box script runs here-->
+
+<script type='text/javascript' src='box.js'></script>
 <!--our sources list-->
 <h2>Sources and where to download</h2>
-<div class="text">
+<div class='text'>
     <ul>
-        <li>Text editor history:<a href="https://en.wikipedia.org/wiki/Text_editor">https://en.wikipedia.org/wiki/Text_editor</a></li>
-        <li>Microsoft Visual Studio:<a href="https://code.visualstudio.com">https://code.visualstudio.com</a></li>
-        <li>Brackets:<a href="http://brackets.io">http://brackets.io</a></li>
-        <li>Sublime text:<a href="https://www.sublimetext.com">https://www.sublimetext.com</a></li>
+        <li>Text editor history:<a href='https://en.wikipedia.org/wiki/Text_editor'>https://en.wikipedia.org/wiki/Text_editor</a></li>
+        <li>Microsoft Visual Studio:<a href='https://code.visualstudio.com'>https://code.visualstudio.com</a></li>
+        <li>Brackets:<a href='http://brackets.io'>http://brackets.io</a></li>
+        <li>Sublime text:<a href='https://www.sublimetext.com'>https://www.sublimetext.com</a></li>
     </ul>
+    
 </div>
 </body>
 </html>
